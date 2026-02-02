@@ -1,13 +1,58 @@
-# INCOMPLETE PROJECT! Code hasn't been uploaded yet
+# FootDB  
+*A football database management and analysis system*
 
-# FootDB
-A football database management system created for my senior year high school project.
+A football database management system created as part of my senior-year high school project, focused on analyzing and visualizing football performance data using Python.
 
-One of my first projects in the data science domain. Used libraries like pandas, numpy and matplotlib for data-drive analysis of different clubs and players based on different parameters.
+---
 
-The code is pretty bad but did the job of helping me understand the fundamentals of data analysis and visualisation.
+## Overview
 
-The dataset comprised of 8 CSV files which were sourced from Kaggle (this is a year old project and I'm not able to find the links for these datasets)
+FootDB is a Python-based football data analysis system developed to explore and visualize team and player performance metrics using structured datasets. The system processes multiple CSV files and provides menu-driven analysis and visual insights across attacking, defending, goalkeeping, and disciplinary aspects of football.
+
+Originally developed as an academic project, this repository showcases early experience with data analysis, visualization, and modular program design using Python.
+
+---
+
+## Key Features
+
+- Menu-driven analysis of football statistics  
+- Club-wise and player-wise performance comparisons  
+- Visualization of key metrics, including:
+  - Goals scored and goals conceded  
+  - Pass and cross accuracy  
+  - Tackles won vs tackles lost  
+  - Clean sheets and goalkeeping performance  
+- CSV-based data backend for easy extensibility and modification  
+
+---
+
+## Tech Stack
+
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib  
+- **Data Source:** Public football datasets from Kaggle  
+- **Visualization:** Matplotlib stacked bar charts  
+
+---
+
+## Project Structure
+
+text
+src/            Core Python implementation  
+data/           CSV datasets used for analysis  
+results/        Generated visualizations  
+report/         Original academic documentation  
+requirements.txt Python dependencies  
+
+## How to Run
+```
+pip install -r requirements.txt
+python src/main.py
+```
+
+Notes
+
+This project reflects early-stage work focused on understanding data-driven analysis rather than production-grade software engineering. Future improvements could include database-backed storage, interactive dashboards, and more advanced analytics techniques.
 
 Few of the example graphs:
 ![image](https://github.com/user-attachments/assets/af26a996-31ad-48c6-8888-6d5569f5e15c)
