@@ -39,7 +39,6 @@ Originally developed as an academic project, this repository showcases early exp
 
 text
 src/            Core Python implementation  
-data/           CSV datasets used for analysis  
 results/        Generated visualizations  
 report/         Original academic documentation  
 requirements.txt Python dependencies  
